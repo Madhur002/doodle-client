@@ -32,7 +32,7 @@
     }),
   })
 
-  const page = () => {
+  const Page = () => {
     const { login } = useAuth();
     const [error, setError] = useState<string | null>(null)
 
@@ -106,4 +106,4 @@
     )
   }
 
-  export default page
+  export default Page
